@@ -9,4 +9,4 @@
 ## Acknowledgement
 * Mr Johnson Promise (JP)
 
-### [VIEW LIVE SITE](https://debeemedia.github.io/real-estate-sign-in-page-bootstrap/)
+### [VIEW LIVE CLONE](https://debeemedia.github.io/real-estate-sign-in-page-bootstrap/)
