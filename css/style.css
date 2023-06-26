@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.bg-primary {
+	background-color: #e23c3c !important;
+}
+
+.bg-primary-subtle-light {
+	background-color: #e23c3c1a !important;
+}
+
+.bg-secondary {
+	background-color: #f4f5f4 !important;
+}
+
+.btn-primary {
+	background-color: #e23c3c !important;
+	border: none;
+	outline: none;
+    border-radius: 0px;
+}
+
+.btn-subtle {
+	background-color: #e23c3ce6 !important;
+	border: none;
+	outline: none;
+    border-radius: 0px;
+    color: white;
+}
+
+.text-primary {
+	color: #e23c3c !important;
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand img {
+    width: 197px;
+    height: 33px;
+}

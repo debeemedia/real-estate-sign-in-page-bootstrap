@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="https://assets.nigeriapropertycentre.com/fd45659e-dd14-4efd-ba2a-fe39cb0f57b8/launcher-icon-60.png">
+        <title>Sign In - Nigeria Property Centre</title>
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <div class="container-lg">
+                <!-- logo/website title -->
+                <a href="#" class="navbar-brand flex-grow-1">
+                    <img src="https://images.nigeriapropertycentre.com/property-centre-logo.png" alt="Nigeria Property Centre">
+                </a>
+                <!-- toggle menu icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="d-block text-uppercase fs-6 open-sans">menu</span>
+                </button>
+                <!-- menu links small -->
+                <div class="collapse navbar-collapse flex-grow-1 mt-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1 justify-content-end text-uppercase d-md-none">
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                          <a class="nav-link text-dark text-decoration-none text-underline-none" href="#">Home</a>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                          <a class="nav-link text-dark text-decoration-none text-underline-none" href="#">For Sale</a>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                          <a class="nav-link text-dark text-decoration-none text-underline-none" href="#">For Rent</a>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                            <li class="nav-item text-dark text-decoration-none text-underline-none bg-white dropdown ps-3">
+                                <a class="nav-link text-dark text-decoration-none text-underline-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Companies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Estate Agents</a></li>
+                                    <li><a class="dropdown-item" href="#">Property Developers</a></li>
+                                    <!-- <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                                </ul>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                            <li class="nav-item text-dark text-decoration-none text-underline-none bg-white dropdown ps-3">
+                                <a class="nav-link text-dark text-decoration-none text-underline-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Requests
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Post a Request</a></li>
+                                    <li><a class="dropdown-item" href="#">View Property Requests</a></li>
+                                </ul>
+                            </li>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                            <li class="nav-item text-dark text-decoration-none text-underline-none bg-white dropdown ps-3">
+                                <a class="nav-link text-dark text-decoration-none text-underline-none dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Market Trends
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Property Demand Trends</a></li>
+                                    <li><a class="dropdown-item" href="#">Average Property Prices</a></li>
+                                </ul>
+                            </li>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                            <a class="nav-link text-dark text-decoration-none text-underline-none" href="#">Register</a>
+                        </li>
+                        <li class="nav-item bg-white border border-1 border-secondary ps-3">
+                            <a class="nav-link text-dark text-decoration-none text-underline-none active" aria-current="page" href="#">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- menu links large -->
+                <div class="collapse navbar-collapse flex-grow-1" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1 justify-content-end text-uppercase d-none d-md-flex">
+                        <!-- <li class="nav-item ">
+                          <a class="nav-link" href="#">Home</a>
+                        </li> -->
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">For&nbsp;Sale</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">For&nbsp;Rent</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">Companies</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">Requests</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">Trends</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#">Sign&nbsp;In</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <header class="bg-secondary">
+            <div class="container-lg py-2 mb-5">
+                <h1 class="fs-4 ms-2">Sign In</h1>
+            </div>
+        </header>
+
+        <!-- CONTACT FORM -->
+        <div class="row justify-content-center">
+            <div class="bg-secondary col-10 col-md-6 col-lg-4 py-2 px-3">
+                <h3 class="fs-6 open-sans">Sign in to your account</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-6 col-lg-4 border py-3 px-3">
+                <form class="fs-6 open-sans">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email or Username</label>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="" id="exampleInputEmail1" aria-describedby="emailHelp" aria-label="Username" aria-describedby="basic-addon1">
+                            <span class="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                              </svg></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <div class="input-group mb-3">
+                            <input type="password" class="form-control" placeholder="" id="exampleInputPassword1" aria-describedby="emailHelp" aria-label="Username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                              </svg></span>
+                        </div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input border border-1 border-secondary" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-subtle fs-6">Sign In
+                            </button>
+                            <button type="submit" class="btn btn-primary fs-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                  </svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="bg-secondary col-10 col-md-6 col-lg-4 py-3 px-3 open-sans">
+                <span class="fs-6 d-block">Lost your password? <a href="#" class="text-primary text-decoration-none">Click here to recover.</a></span>
+                <span class="fs-6 d-block">Don't have an account? <a href="#" class="text-primary text-decoration-none">Register Now!</a></span>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="bg-primary-subtle-light col-10 col-md-6 col-lg-4 py-3 px-3 d-flex flex-column align-items-center fs-6 text-center">
+                <h4 class="ms-2 fs-6">Need help? Contact Us.</h4>
+                <div class="telegram">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                        </svg>
+                        Telegram: <a href="#" class="text-primary">@nigeriapropertycentre</a>
+                    </span>
+                </div>
+                <div class="email">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+                        <a href="#" class="text-primary">support@nigeriapropertycentre.com</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
